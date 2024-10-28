@@ -1,1 +1,58 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+body{
+    display: flex;
+    background-color: #D2D4BC;
+    padding: 0%;
+    margin: 0%;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+}
+
+.page-wrapper {
+    display: flex;
+    width: 100%;
+    margin: 0.25em auto;
+    max-width: 1800px;
+    position: relative;
+    padding: 0 4%;
+  }
+
+  .explanation{
+    display: flex;
+    border-width: 2px;
+   border-style: solid;
+  }
+
+  .participation{
+    display: flex;
+    border-width: 2px;
+   border-style: solid;
+  }
+
+  .benefits{
+    display: flex;
+    border-width: 2px;
+   border-style: solid;
+  }
+
+  .requirements{
+    display: flex;
+    border-width: 2px;
+   border-style: solid;
+  }

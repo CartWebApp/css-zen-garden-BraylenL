@@ -7,52 +7,130 @@ html{
 
 header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.page-wrapper{
+  border: 1px solid;
+  padding: 100px;
+  margin: 100px;
+  background-color: #D2D4BC;
+}
+
+h1{
+  display: flex;
+  font-size: xxx-large;
+}
+
+h2{
+  display: flex;
+  font-size: x-large;
+}
+
+h3{
+  display: flex;
+  font-size: x-large;
+}
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 
 body{
     display: flex;
-    background-color: #D2D4BC;
+    background-color: lightblue;
+    background-image: url(cherry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0%;
     margin: 0%;
 }
 
-.intro{
-    display: flex;
-    justify-content: center;
+.preamble{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-width: 2px;
+ border-style: solid;
 }
-
-.page-wrapper {
-    display: flex;
-    width: 100%;
-    margin: 0.25em auto;
-    max-width: 1800px;
-    position: relative;
-    padding: 0 4%;
-  }
-
   .explanation{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     border-width: 2px;
    border-style: solid;
   }
 
-  .participation{
+  #zen-participation{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     border-width: 2px;
    border-style: solid;
   }
 
   .benefits{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     border-width: 2px;
    border-style: solid;
   }
 
   .requirements{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     border-width: 2px;
    border-style: solid;
+  }
+
+  .design-selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .design-archives{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .zen-resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
   }

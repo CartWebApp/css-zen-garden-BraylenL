@@ -1,17 +1,27 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
-html{
-    margin: 0;
-    padding: 0;
+header{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1000px;
+
 }
 
-header{
+#zen-intro{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: auto;
+    background-image: url(dna.jpg);
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+    
+}
+.banner::after{
+  display: flex;
+  background-image: url(dna.jpg);
+  justify-content: center;
+  align-self: center;
 }
 
 .page-wrapper{
@@ -19,11 +29,14 @@ header{
   padding: 100px;
   margin: 100px;
   background-color: #D2D4BC;
+
 }
+
 
 h1{
   display: flex;
   font-size: xxx-large;
+
 }
 
 h2{
@@ -34,6 +47,14 @@ h2{
 h3{
   display: flex;
   font-size: x-large;
+}
+
+a:link{
+  color: rgb(188, 141, 70);
+}
+
+a:visited{
+  color: rgb(188, 141, 70);
 }
 
 .summary{

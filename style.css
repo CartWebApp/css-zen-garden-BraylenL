@@ -59,6 +59,7 @@ a:visited{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
 }
 
 
@@ -78,6 +79,7 @@ body{
   text-align: center;
   align-items: center;
   margin-bottom: 100px;
+  font-size: large;
 }
   .explanation{
     display: flex;
@@ -86,6 +88,7 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
   }
 
   .participation{
@@ -95,6 +98,7 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
   }
 
   .benefits{
@@ -104,6 +108,7 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
   }
 
   .requirements{
@@ -113,6 +118,7 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
   }
 
   .design-selection{
@@ -122,6 +128,8 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
+    
   }
 
   .design-archives{
@@ -131,6 +139,7 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
   }
   
   .zen-resources{
@@ -140,6 +149,7 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
   }
 
   footer{
@@ -148,6 +158,7 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 100px;
+    font-size: large;
   }
 
   .sidebar{
@@ -156,5 +167,40 @@ body{
     background-size: 500px, 500px;
     background-position: 50px, 1050px;
     mix-blend-mode: multiply;
+    font-size: large;
   }
 
+footer:nth-of-type(1) {
+  background-color: antiquewhite;
+  margin: 50px;
+}
+
+::selection{
+  color: rgb(225, 255, 0);
+  background-color: red;
+}
+
+:root {
+  background-color: rgb(200, 162, 162);
+  padding: 30px;
+}
+
+*{
+  color: rgb(176, 122, 122);
+}
+
+p.intro{
+  color: white;
+}
+
+div p{
+  color: rgb(225, 133, 133);
+}
+
+a:active {
+  background-color: rgb(168, 168, 209);
+}
+
+a:hover {
+  background-color: pink;
+}

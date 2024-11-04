@@ -1,21 +1,24 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
+
+
 header{
   display: flex;
     flex-direction: column;
     align-items: center;
     margin-block-start: 50px;
-    margin-bottom: 1250px;
+    margin-bottom: 1000px;
 }
 
 #zen-intro{
     display: flex;
     flex-direction: column;
     background-image: url(dna.jpg);
-    background-position: 50%;
+    background-position: center;
+    background-position-y: 25%;
+    background-size: 600px;
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
-    
 }
 
 
@@ -203,4 +206,128 @@ a:active {
 
 a:hover {
   background-color: pink;
+}
+
+h1:only-child,
+h2:only-child,
+h3:only-child {
+  color: var(pink); 
+  text-decoration: underline;
+}
+
+a:only-of-type {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.page-wrapper p:nth-last-of-type(1) {
+  font-style: italic;
+  color: var(pink);
+}
+
+footer a:nth-of-type(-n+2) {
+  color: var(--link-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+input[required] {
+  border: 2px solid red; 
+}
+
+h2:before {
+  content: " ✨"; 
+  font-size: 0.8em; 
+}
+
+h2:after {
+  content: " ✨"; 
+  font-size: 0.8em; 
+}
+
+h1:before {
+  content: "🌟 "; 
+  font-size: 1.2em; 
+}
+
+h1:after {
+  content: "🌟 "; 
+  font-size: 1.2em; 
+}
+
+p:empty {
+  display: none; 
+}
+
+h1:first-child {
+  text-transform: uppercase; 
+  border-bottom: 2px solid var(pink); 
+}
+
+p::first-letter {
+  font-size: 3em; 
+  font-weight: bold; 
+  color: var(pink); 
+}
+
+p::first-line {
+  font-weight: bold; 
+  font-size: 1.2em; 
+  color: var(pink); 
+}
+
+section p:first-of-type {
+  font-weight: bold; 
+  color: var(--primary-color); 
+  font-size: 1.1em; 
+}
+
+a:focus {
+  outline: 2px dashed orange; 
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+ul li:last-child {
+  font-weight: bold; 
+  color: darkred; 
+  margin-bottom: 20px; 
+}
+
+ul li:last-of-type {
+  font-weight: bold;
+  color: darkred; 
+  padding-bottom: 10px; 
+}
+
+h1, h2, h3, h4, h5, h6:not(h1) {
+  color: darkred; 
+  font-weight: bold; 
+}
+
+ul li:nth-child(-n+3) {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+section p:nth-last-child(2n) {
+  color: rgb(215, 119, 146); 
+  font-style: italic; 
+}
+
+section > p {
+  color: rgb(164, 68, 139); 
+  font-size: 1.1em; 
+}
+
+p + h2 {
+  color: lightpink; 
+  margin-top: 20px; 
+  font-style: italic; 
+}
+
+h2 ~ p {
+  color: darkmagenta; 
+  font-size: 1.1em; 
+  margin-top: 10px; 
 }
